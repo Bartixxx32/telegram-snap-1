@@ -18,7 +18,7 @@ confinement: strict
 grade: stable
 
 apps:
-  telegram:
+  telegram-testbart:
     environment:
       QT_XKB_CONFIG_ROOT: /usr/share/X11/xkb
       QT_IM_MODULE: xim
@@ -36,7 +36,7 @@ apps:
       - x11
 
 parts:
-  telegram:
+  telegram-testbart:
     source: https://updates.tdesktop.com/tlinux//tsetup.$SNAPCRAFT_PROJECT_VERSION.tar.xz
     plugin: dump
     after:
